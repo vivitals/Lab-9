@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strike a Chord: Contact Us</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="scripts/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <!-- Mobile navigation menu -->
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <span>Strike a Chord</span>
+    <button id="menu-button" type="button" onclick="hamburger()" aria-controls="menu-links" aria-expanded="false">Menu ☰</button>
+  </nav>
+  <nav id="menu-links" aria-label="Mobile menu">
+    <a href="index.html">Home</a><a href="lessons.html">Lessons</a><a href="instructors.html">Instructors</a><a href="rentals.html">Rentals</a><a href="contact.html">Contact Us</a>
+  </nav>
+  <header><h1>♫ Strike a Chord ♫</h1><p>Music lessons for every stage of your journey</p></header>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="lessons.html">Lessons</a><a href="instructors.html">Instructors</a><a href="rentals.html">Rentals</a><a href="contact.html">Contact Us</a>
+  </nav>
+  <main id="main-content">
+<section class="hero"><h2>Contact Strike a Chord</h2><p>Ask a question about lessons, instructors, or instrument rentals. This form is a front-end example for the class project.</p></section>
+<section class="form-panel"><h2>Send a Message</h2>
+<form action="#" method="post" onsubmit="alert('This sample form is not connected to a server. Please use the email link below to contact us.'); return false;">
+<label for="name">Name</label><input type="text" id="name" name="name" autocomplete="name" required>
+<label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" required>
+<label for="instrument">Instrument of interest</label><select id="instrument" name="instrument"><option value="">Select an instrument</option><option>Piano</option><option>Guitar</option><option>Violin</option><option>Bass</option><option>Other</option></select>
+<label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea><input type="submit" value="Submit Message"></form></section>
+<section class="lesson-section"><h2>Other Ways to Reach Us</h2><p><strong>Email:</strong> <a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a></p><p><strong>Phone:</strong> (814) 555-9228</p><p><strong>Address:</strong> 1122 Music Lane, Chicago, IL 60007</p><p><em>Sample contact details based on the reference site's displayed information; verify any details your instructor expects you to use.</em></p></section>
+</main>
+  <footer>
+    <p>Contact us: <a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a> | (814) 555-9228</p>
+    <p>&copy; 2026 Strike a Chord. All rights reserved.</p>
+  </footer>
+</body>
+</html>
